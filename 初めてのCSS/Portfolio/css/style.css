@@ -49,3 +49,7 @@ section p{
   margin-top:o;
   font-size:14px;
 }
+ .icon{
+   /* border-radius:30px; */
+   border-radius:50%;
+ }
