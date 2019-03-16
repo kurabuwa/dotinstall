@@ -1,8 +1,18 @@
-h1 {
+body {
   color:#333;
   font-family: Verdana,sans-serif;
+  /* margin-top:0px;
+  margin-bottom:0px;
+  margin-right:0px;
+  margin-left:0px;
+  margin:0px; */
+  margin:0;
 }
 
 header{
   background-color: pink;
+}
+
+ul{
+  margin:0;
 }
