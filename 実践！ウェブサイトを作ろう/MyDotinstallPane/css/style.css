@@ -5,10 +5,19 @@ body{
   margin:0;
 }
 
-header{
+.container{
+  width: 820px;
+  margin:0 auto;
+  padding:60px 0;
+}
+
+/* header */
+
+.orange-bg{
   color:#fff;
   background:url(../img/bg.png);
   background-size:cover;
+
 }
 
 header h1{
@@ -22,9 +31,6 @@ header p{
   margin-bottom:50px;
 }
 header .container{
-  width: 820px;
-  margin:0 auto;
-  padding:60px 0;
   position:relative;
 }
 
