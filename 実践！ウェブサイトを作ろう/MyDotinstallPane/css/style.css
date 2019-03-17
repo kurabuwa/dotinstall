@@ -25,9 +25,14 @@ header .container{
   width: 820px;
   margin:0 auto;
   padding:60px 0;
-  /* background: pink; */
+  position:relative;
 }
 
+header img{
+  position:absolute;
+  bottom:0;
+  right:0;
+}
 .btn{
   display: inline-block;
   width: 290px;
