@@ -1,23 +1,19 @@
 'use strict'
 
-function showAD(){
+function showAD(message = 'AD'){
   console.log('----------');
-  console.log('----AD----');
+  console.log(`---${message}---`);
   console.log('----------');
 }
 
+showAD('header AD');
 
 console.log('Tom is great!');
 console.log('Bob is great!');
-console.log('Steve is great!');
-console.log('Rich is great!');
 
-showAD();
+showAD('AD');
 
 console.log('Steve is great!');
 console.log('Rich is great!');
 
-showAD();
-
-console.log('Steve is great!');
-console.log('Rich is great!');
+showAD('footer AD');
