@@ -1,12 +1,8 @@
 'use strict';
 
-let hp=200;
-
-// while(hp > 0){
-//   console.log(`${hp} hp left!`);
-//   hp -= 15;
-// }
-
-for (let hp = 200; hp>0; hp-=15){
-  console.log(`${hp} hp left!`)
+for(let i=1;i<=10;i++){
+  if(i===4){
+    break;
+  }
+  console.log(i);
 }
