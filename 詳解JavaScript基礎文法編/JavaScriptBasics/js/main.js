@@ -1,6 +1,11 @@
   'use strict';
 
-  // console.log('it\'me');
+  // console.log(10 + 3);// 13
+  // console.log(10 - 3);// 7
+  // console.log(10 * 3);// 30
+  // console.log(10 / 3);//3.33...
+  // console.log(10 % 3);//1
+  // console.log(10 ** 3);// 1000
 
-  console.log('hell\no wor\tld');
-  console.log('hello' + 'world');
+console.log(2 + 10 * 3);//32
+console.log((2 + 10) * 3);//36
