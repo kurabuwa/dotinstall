@@ -1,5 +1,9 @@
-  'use strict';
-
-console.log('5' * 3);
-console.log('5' + 3);
-console.log(parseInt('hello',10));
+'use strict';
+const score = 85;
+if(score >=80){
+  console.log('Great!')
+}else if (score >= 60){
+  console.log('Good');
+}else{
+  console.log('OK');
+}
