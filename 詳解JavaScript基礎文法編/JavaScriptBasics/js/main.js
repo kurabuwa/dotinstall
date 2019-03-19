@@ -1,11 +1,14 @@
   'use strict';
 
-let price = 150;
+let price = 500;
 
-console.log(price * 140);
-console.log(price * 160);
+price = price + 100;//600
+price+=100;//700
 
- price = 170;
+price *= 2;//1400
 
-console.log(price * 140);
-console.log(price * 160);
+price++;//1401
+
+price--;//1400
+
+console.log(price);
