@@ -1,3 +1,6 @@
   'use strict';
 
-  console.log('Hello World from main.js!');
+  // console.log('it\'me');
+
+  console.log('hell\no wor\tld');
+  console.log('hello' + 'world');
