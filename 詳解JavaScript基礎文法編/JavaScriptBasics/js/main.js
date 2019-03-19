@@ -1,8 +1,23 @@
-'use strict';
+'use strict'
 
-for(let i=1;i<=10;i++){
-  if(i===4){
-    break;
-  }
-  console.log(i);
+function showAD(){
+  console.log('----------');
+  console.log('----AD----');
+  console.log('----------');
 }
+
+
+console.log('Tom is great!');
+console.log('Bob is great!');
+console.log('Steve is great!');
+console.log('Rich is great!');
+
+showAD();
+
+console.log('Steve is great!');
+console.log('Rich is great!');
+
+showAD();
+
+console.log('Steve is great!');
+console.log('Rich is great!');
