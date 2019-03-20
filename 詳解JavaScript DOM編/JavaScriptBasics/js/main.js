@@ -1,5 +1,4 @@
 'use strict';
 {
-  document.body.textContent='hello';
-  document.title = 'Changed';
+  document.getElementById('target').textContent = 'Changed!';
 }
