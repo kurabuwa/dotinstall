@@ -1,16 +1,17 @@
 'use strict';
 {
-  const a = [1, 2, 5, 10];
+  const o = {
+    a:1,
+    b:2,
+  };
 
-  // const b = [];
-  // a.forEach(item => {
-  //   b.push(item * 2);
-  // });
-  // console.log(b);
+  // console.log(Object.keys(o));
+  // console.log(Object.values(o));
+  // console.log(Object.entries(o));
 
-  // const b = a.map(item => item * 2);
-  const b =a.filter(item => item%2 === 0);
-  console.log(b);
+  Object.keys(o).forEach(key =>{
+    console.log(`${key}:${o[key]}`);
+  });
 
 
 }
