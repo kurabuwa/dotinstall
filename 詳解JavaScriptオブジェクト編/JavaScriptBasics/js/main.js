@@ -1,14 +1,17 @@
 'use strict';
 {
-  // const player = ['taguchi',32];
-  const player = {
-    name: 'tagichi',
-    score: 32,
-  };
-// console.log(player.name);
-// player.score = 100;
-// console.log(player);
-
-delete player.score;
-console.log(player);
+  // const taguchi = {
+  //   name: 'taguchi',
+  //   score: 32,
+  // };
+  // const fkoji = {
+  //   name:'fkoji',
+  //   score: 44,
+  // };
+  class Player{
+    constructor(name, score){
+      this.name = name;
+      this.score = score;
+    }
+  }
 }
