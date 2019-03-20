@@ -1,8 +1,13 @@
 'use strict';
 {
-  console.log(Math.PI);
+  const d = new Date();
+  console.log(d);
+  console.log(d.getMonth());
+  console.log(d.getDate());
+  console.log(d.getDay());
+  console.log(d.getHours());
+  console.log(d.getMinutes());
+  console.log(d.getSeconds());
+  console.log(d.getTime());
 
-  console.log(Math.random());
-
-  console.log(Math.floor(Math.random() * 6 + 1));
 }
