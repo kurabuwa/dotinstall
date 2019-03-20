@@ -1,17 +1,14 @@
 'use strict';
 {
-  const div = document.querySelector('div');
+  const h1 = document.createElement('h1');
+  h1.textContent = 'Title';
+  document.body.appendChild(h1);
 
-  // div.className = 'box border-pink';
+  const p = document.createElement('p');
+  p.textContent = 'hello hello ...';
+  document.body.appendChild(p);
 
-  // div.classList.add('border-pink');
-  // div.classList.remove('border-pink');
-
-  // if (div.classList.contains('border-pink')){
-  //   div.classList.remove('border-pink');
-  // }else{
-  //   div.classList.add('border-pink');
-  // }
-
-  div.classList.toggle('border-pink');
+  const h2 = document.createElement('h2');
+  h2.textContent = 'Subtitile';
+  document.body.insertBefore(h2,p);
 }
