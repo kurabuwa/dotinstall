@@ -1,8 +1,6 @@
 'use strict';
 {
-  const h1 = document.querySelector('h1');
+  const div = document.querySelector('div');
 
-  console.log(h1.dataset.appId);
-  h1.dataset.message =' this is cusstom message';
-
+  div.className = 'box border-pink';
 }
