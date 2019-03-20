@@ -1,29 +1,15 @@
 'use strict';
 {
-  class Player{
-    constructor(name, score){
-      this.name = name;
-      this.score = score;
-    }
-    showInfo(){
-      console.log(`name:${this.name} score: ${this.score}`);
-    }
-  }
+  // let x = 1;
+  // let y = x;
+  // x =5;
+  // console.log(x);
+  // console.log(y);
+  let x = [1,2];
+  let y = x;
+  x[0] =5;
+  console.log(x);
+  console.log(y);
 
-  class SoccerPlayer extends Player {
-    constructor(name, score, number) {
-      super(name, score);
-      this.number = number;
-    }
-    kick() {
-      console.log('Gooooaaal!');
-    }
-  }
 
-      const tsubasa = new SoccerPlayer('tsubasa', 99, 10);
-
-    tsubasa.kick();
-    console.log(tsubasa.number);
-    tsubasa.showInfo();
-  
 }
