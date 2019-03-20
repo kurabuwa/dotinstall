@@ -1,16 +1,21 @@
 'use strict';
 {
-  // const a = [10, 20];
-  // const b = [1,2,...a];
+  // const numbers=[1,2,3,8];
+  // const [a,b,...rest]=numbers;
+  // console.log(a);
   // console.log(b);
-  // a[0]=100;
-  // console.log(b);
-  //
-  // const a = [10, 20];
-  // const sum=(a,b)=>a+b;
-  // console.log(sum(...a));
+  // console.log(rest);
 
-  const o1 = {a:1};
-  const o2 = {...o1, b:2};
-  console.log(o2);
+  const player = {
+    name: 'taguchi',
+    score: 55,
+    hp: 33,
+    mp: 22,
+  };
+
+  const {name, score ,...point}=player;
+  console.log(name);
+  console.log(score);
+  console.log(point);
+
 }
