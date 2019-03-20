@@ -1,10 +1,8 @@
 'use strict';
 {
-  const h1=document.querySelector('h1');
+  const h1 = document.querySelector('h1');
 
-  // console.log(h1.title);
-  // h1.title='changed';
+  console.log(h1.dataset.appId);
+  h1.dataset.message =' this is cusstom message';
 
-  h1.style.color = 'gray';
-  h1.style.backgroundColor = 'pink';
 }
