@@ -1,19 +1,13 @@
 'use strict';
 {
-  const h1 = document.createElement('h1');
-  h1.textContent = 'Title';
-  document.body.appendChild(h1);
+  const text = document.querySelector('input[type="text"]');
+  const textarea = document.querySelector('textarea');
 
-  const p = document.createElement('p');
-  p.textContent = 'hello hello ...';
-  document.body.appendChild(p);
+  console.log(text.value);
+  console.log(textarea.value);
 
-  const h2 = document.createElement('h2');
-  h2.textContent = 'Subtitile';
-  document.body.insertBefore(h2,p);
+  // text.select();
+  text.disabled = true;
 
-  const copy = p.cloneNode(false);
-  document.body.insertBefore(copy,h2);
 
-  document.body.removeChild(h2)
 }
