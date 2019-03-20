@@ -1,13 +1,5 @@
 'use strict';
 {
-  // const taguchi = {
-  //   name: 'taguchi',
-  //   score: 32,
-  // };
-  // const fkoji = {
-  //   name:'fkoji',
-  //   score: 44,
-  // };
   class Player{
     constructor(name, score){
       this.name = name;
@@ -16,18 +8,22 @@
     showInfo(){
       console.log(`name:${this.name} score: ${this.score}`);
     }
+  }
 
-    static showVersion(){
-      console.log('Player class ver 1.0');
+  class SoccerPlayer extends Player {
+    constructor(name, score, number) {
+      super(name, score);
+      this.number = number;
+    }
+    kick() {
+      console.log('Gooooaaal!');
     }
   }
 
+      const tsubasa = new SoccerPlayer('tsubasa', 99, 10);
 
-  const taguchi = new Player('taguchi',32);
-  const fkoji = new Player('fkoji',44);
-
-  console.log(taguchi.name);
-  taguchi.showInfo();
-  fkoji.showInfo();
-  Player.showVersion();
+    tsubasa.kick();
+    console.log(tsubasa.number);
+    tsubasa.showInfo();
+  
 }
