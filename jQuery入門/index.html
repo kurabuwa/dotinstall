@@ -12,14 +12,12 @@
 </head>
 <body>
   <p>jQueryの練習</p>
+  <a href="http://google.com" data-sitename="google">Google</a>
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script>
       $(function(){
-        // $('p').css('color', 'red').css('background', 'blue')
-        // console.log($('p').css('color'));
-        $('p').addClass('myStyle');
-
-
+        // console.log($('a').attr('href'));
+        console.log($('a').data('sitename'));
       });
     </script>
 </body>
