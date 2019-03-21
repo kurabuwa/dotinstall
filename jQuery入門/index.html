@@ -25,7 +25,9 @@
   <script>
     // $(document).ready(function(){
       $(function(){
-        $("#sub > li:contains('4')").css('color','red')
+        // $("#sub").children().css('color','red')
+        // $("#sub > li:eq(2)").prev().css('color','red')
+        $("#sub > li:eq(2)").siblings().css('color','red')
       });
     </script>
 </body>
