@@ -6,7 +6,7 @@
 </head>
 <body>
   <p>jQueryの練習</p>
-  <ul>
+  <ul id ="main">
     <li>0</li>
     <li class="item">1</li>
     <li class="item">2</li>
@@ -25,7 +25,7 @@
   <script>
     // $(document).ready(function(){
       $(function(){
-        $(".item").css('color','red')
+        $(".item + .item").css('color','red')
       });
     </script>
 </body>
