@@ -38,3 +38,7 @@
   margin-top:3px;
   box-shadow:0 3px 0 #ccc;
 }
+
+#result.standby{
+  opacity:0.5
+}
