@@ -3,25 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>jQueryの練習</title>
-  <style>
-    .myStyle{
-      border:5px solid green;
-      font-size:48px;
-    }
-  </style>
 </head>
 <body>
   <p>jQueryの練習</p>
-  <a href="http://google.com" data-sitename="google">Google</a>
-  <input type="text" value="hello">
+  <ul>
+    <li>0</li>
+    <li>1</li>
+    <li>2</li>
+  </ul>
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script>
       $(function(){
-        // $('p').text('just changed')
-        // $('p').html('<a href="">click me!</a>')
-        // console.log($('input').val());
-        // $('input').val('hello agaon');
-        $('p').remove();
+        var li = $('<li>').text('just added');
+        // $('ul > li:eq(1)').before(li);
+        // li.insertBefore($('ul > li:eq(1)'));
+
+        // $('ul').prepend(li);
+        // $('ul').append(li);
+        li.appendTo($('ul'));
       });
     </script>
 </body>
