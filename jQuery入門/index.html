@@ -13,11 +13,15 @@
 <body>
   <p>jQueryの練習</p>
   <a href="http://google.com" data-sitename="google">Google</a>
+  <input type="text" value="hello">
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script>
       $(function(){
-        // console.log($('a').attr('href'));
-        console.log($('a').data('sitename'));
+        // $('p').text('just changed')
+        // $('p').html('<a href="">click me!</a>')
+        // console.log($('input').val());
+        // $('input').val('hello agaon');
+        $('p').remove();
       });
     </script>
 </body>
